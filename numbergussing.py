@@ -1,5 +1,4 @@
 import random
-from app import logo
 easy  = 10
 hard = 5
 
@@ -13,7 +12,6 @@ def guess(answer,guess_value,turn):
     if guess_value == answer:
         print("You guessed right")
         print("conguratulation !")
-        print(logo)
         return turn
     elif guess_value > answer:
         print("You guessed higher")
