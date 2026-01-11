@@ -1,4 +1,4 @@
-logo = {
+import random
 def deal_card():
         cards = [11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10]
         card = random.choice(cards)
@@ -70,10 +70,6 @@ def play_game():
 while input("Do you want to play a game of Blackjack? Type 'y' or 'n': ") == "y":
     print("\n" * 5)
     play_game() 
-
-
-
-}
 
 
 
